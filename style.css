@@ -1,0 +1,699 @@
+
+.header {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.header nav {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+nav .brand-logo {
+    color: black !important;
+}
+
+.nav-wrapper a {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: black;
+    opacity: 0.8;
+}
+
+.welcome {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(./horizontal-banner-for-web-design-with-copy-space-o-2022-08-01-03-42-55-utc\ \(1\).jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.welcome h1 {
+    color: #fff;
+    margin-bottom: 0.5rem !important;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.welcome h1 span {
+    color: #27bcad;
+}
+
+.welcome p {
+    margin-bottom: 2rem !important;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+.welcome a {
+    position: absolute;
+    bottom: -24px;
+}
+
+.story {
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.story__container {
+    width: 82%;
+    margin: 0% auto;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 0;
+}
+
+.story__container-item1 {
+    width: 30%;
+}
+
+.story__container-item1 h5, .story__container-item3 h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4db6ac;
+    margin-top: 0% !important;
+}
+
+.story__container-item1 p {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    opacity: 0.8;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.5rem;
+}
+
+.story__container-item2 {
+    width: 37%;
+    border: 8px solid #fff;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+.story__container-item2 img {
+    width: 100%;
+    height: auto;
+}
+
+.story__container-item3 {
+    width: 30%;
+}
+
+.story__container-item3 h5 {
+    margin-bottom: 1.3rem;
+}
+
+.story__container-item3 table tr td {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.story__container-item3-link {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.7rem;
+}
+
+.story__container-item3-link a i {
+    color: rgb(39, 188, 173);
+    font-size: 0.8rem;
+}
+
+.skill {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-image: url(./cropped-view-of-developer-working-with-ux-website-2021-10-07-19-47-19-utc\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.skill::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(234, 244, 244, 0.6);
+    backdrop-filter: blur(2px);
+    top: 0;
+}
+
+.skill__container {
+    width: 82%;
+    height: 100%;
+    margin: 0% auto;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill__container-item1 {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+    margin-right: 4rem;
+}
+
+.skill__container-item1 h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    opacity: 0.8;
+}
+
+.skill__container-item1 p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.8;
+    line-height: 1.4rem;
+}
+
+.skill__container-item2 {
+    width: 53%;
+    display: flex;
+    align-items: center;
+}
+
+.skill__container-item2 div {
+    width: 100%;
+}
+
+.skill__container-item3 {
+    width: 8%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.experience {
+    width: 100%;
+    background-color: #27bcad;
+    display: flex;
+}
+
+.experience__container {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.experience__container h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+.experience__container p {
+    width: 85%;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    opacity: 0.8;
+}
+
+.experience__container-item {
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+.experience__container-item-card {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+}
+
+.card-content {
+    padding: 8px 24px !important;
+}
+
+.card-content .card-title {
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    opacity: 0.8;
+    margin-bottom: 0 !important;
+}
+
+.card-bottom {
+    color: #27bcad;
+}
+
+.card-content p {
+    margin-bottom: 5px !important;
+}
+
+.card-content p a{
+    color: black !important;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.card-reveal p {
+    color: black;
+}
+
+.experience__container-item-button {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.experience__container-item-button a i {
+    color: #27bcad;
+}
+
+.education {
+    background-color: #FAFAFA;
+}
+
+.education__container h4, .education__container p {
+    color: black;
+}
+
+.education__container-button a i {
+    color: #fff;
+}
+
+.profolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.profolio-header {
+    width: 100%;
+    background-color: #27bcad;
+}
+
+.profolio-header__container {
+    width: 82%;
+    margin: 0% auto;
+}
+
+.profolio-header__container h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.tabs li a {
+    padding-left: 0 !important;
+    font-size: 0.8rem !important;
+    font-weight: 500;
+    color: #fff !important;
+    position: relative;
+}
+
+.tabs li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    left: -6px;
+    bottom: 5px;
+    transition: 0.3s;
+}
+
+.tabs li a:hover::after {
+    width: 70%;
+}
+
+.profolio-items__container {
+    width: 82%;
+    margin: 0% auto;
+    margin-top: 4rem;
+    margin-bottom: 5.5rem;
+}
+
+.row {
+    margin-bottom: 2.5rem !important;
+}
+
+.item {
+    padding-left: 0 !important;
+    padding-right: 0.4rem !important;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.project {
+    width: 100%;
+    height: 420px;
+    display: flex;
+    background-image: url(./images/typing-on-laptop-computer-2021-08-29-08-16-50-utc.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.project::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(234, 244, 244, 0.6);
+    backdrop-filter: blur(2px);
+    top: 0;
+}
+
+.project__container {
+    width: 82%;
+    height: 100%;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.project__container-items {
+    width: 32%;
+    height: 250px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project__container-items i {
+    font-size: 2rem;
+    color: gray;
+    opacity: 0.8;
+}
+
+.project__container-items h3 {
+    margin: 1rem 0 1rem 0 !important;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #27bcad;
+}
+
+.project__container-items p {
+    margin: 0 !important;
+    color: black;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    font-weight: 500;
+}
+
+.testimonal-card {
+    width: 48%;
+    height: auto;
+    padding: 1.2rem;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.temsimonal-card-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.temsimonal-card-title img {
+    border-radius: 4px;
+    width: 20%;
+    height: auto;
+}
+
+.temsimonal-card-title img:nth-child(2) {
+    height: 50px;
+    width: auto;
+}
+
+.testimonal-card p {
+    color: black !important;
+    font-size: 0.9rem !important;
+    font-style: italic;
+    opacity: 0.6;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.temsimonal-card-footer p {
+    margin: 0%;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.temsimonal-card-footer p span {
+    color: #27bcad;
+}
+
+.blog {
+    flex-direction: column;
+}
+
+.blog__container{
+    width: 82%;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.blog__container-item {
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.blog-card {
+    width: 31%;
+}
+
+.blog-card img {
+    width: 97%;
+    height: auto;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.blog-card-content {
+    padding: 8px 20px !important;
+}
+
+.card-content h5 {
+    font-size: 1rem;
+    color: #27bcad;
+    font-weight: 600;
+    margin-top: 0% !important;
+}
+
+.card-content p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    opacity: 0.7;
+    margin: 16px 0 !important;
+}
+
+.blog-card-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px !important;
+}
+
+.blog-card-action p {
+     color: #27bcad !important;
+     font-size: 0.8rem;
+     font-weight: 500;
+}
+
+.blog-card-action-heart {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.blog-card-action-heart i {
+    color: gray;
+    opacity: 0.7;
+}
+
+.blog-card-action-heart .second {
+    opacity: 0.9;
+    color: #dc2f02 !important;
+}
+
+.blog-card-action-heart span {
+    color: gray;
+    opacity: 0.8;
+    font-size: 00.8rem;
+}
+
+.blog-btn {
+    background-color: #fff !important;
+    color: #6c757d !important;
+    font-size: 0.8rem !important;
+    font-weight: 500;
+}
+
+.contact p {
+    margin-top: 1rem;
+    line-height: 1rem;
+}
+
+.contact-header span{
+    padding-right: 0.5rem;
+    color: #fff;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    font-weight: 500;
+}
+
+.contact-header span:nth-child(2) {
+    padding: 0 0.5rem;
+    border-left: 1.5px solid #fff;
+    border-right: 1.5px solid #fff;
+}
+
+.contact-header span:nth-child(3) {
+    padding-left: 0.5rem;
+}
+
+.contact-header span a {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.contact__container-item {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    justify-content: space-between;
+}
+
+.contact__container-item img {
+    width: 58%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.contact__container-item-form {
+    width: 38%;
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.input-field {
+    margin-top: 1.5rem !important;
+}
+
+.input-field input {
+    height: 36px !important;
+}
+
+.input-field input, .input-field textarea {
+    border-bottom: 2px solid rgba(233, 236, 239, 0.3) !important;
+}
+
+.input-field label{
+    font-size: 0.9rem !important;
+}
+
+.text-area {
+    margin-bottom: 0 !important;
+}
+
+.contact__container-item-form a {
+    background-color: #fff !important;
+    color: #27bcad !important;
+    font-size: 0.8rem !important;
+    font-weight: 500;
+    box-shadow: none !important;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer__container {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__container-item {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer__container-item i {
+    color: gray;
+    opacity: 0.8;
+    font-size: 1rem;
+}
+
+.footer__container p{
+    color: gray;
+    font-size: 0.6rem;
+    opacity: 0.7;
+}
+
+.footer a {
+    position: absolute;
+    left: 50%;
+    top: -20px;
+}
+
+.footer a i {
+    color: black;
+}
